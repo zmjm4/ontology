@@ -1,0 +1,562 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+     xml:base="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:heterogeneity="http://knowledgeweb.semanticweb.org/heterogeneity/">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmententity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmententity1"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmententity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmententity2"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentlevel -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentlevel"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentmap -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentmap"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentmeasure -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentmeasure"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentonto1 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentonto1"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentonto2 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentonto2"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentrelation -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentrelation"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmenttype -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmenttype"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmenturi1 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmenturi1"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmenturi2 -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmenturi2"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentxml -->
+
+    <owl:AnnotationProperty rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentxml"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentAlignment -->
+
+    <owl:Class rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentAlignment"/>
+    
+
+
+    <!-- http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell -->
+
+    <owl:Class rdf:about="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentAlignment"/>
+        <heterogeneity:alignmentlevel>0</heterogeneity:alignmentlevel>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#type"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#type"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#proceedings"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#booktitle"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#volume"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#volume"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Unpublished"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Resource"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#address"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#address"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#chapter"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#chapter"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Chapter"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#InBook"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#editor"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#editor"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#series"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#series"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#date"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#publishedOn"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#title"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#title"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Booklet"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#LectureNotes"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#url"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#softCopyURI"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#MastersThesis"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#MastersThesis"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#pages"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#pages"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#TechReport"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#TechReport"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#edition"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#edition"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#institution"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#institution"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#isPartOf"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#booktitle"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#organization"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#organization"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#publisher"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#publisher"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#school"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#school"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Misc"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Misc"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Collection"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Book"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#abstract"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#abstract"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Academic"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Article"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Article"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Informal"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Book"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Book"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#book"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#booktitle"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#PhdThesis"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#PhdThesis"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Proceedings"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Proceedings"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#number"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#number"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Reference"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Resource"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#InCollection"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#InCollection"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#author"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#author"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Report"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#note"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#note"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Part"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Manual"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#InProceedings"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#InProceedings"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#journal"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#journal"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Monograph"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Book"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#keywords"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#keyword"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#Deliverable"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#Publication"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentmap>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+                <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#size"/>
+                <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#softCopySize"/>
+                <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+                <heterogeneity:alignmentrelation>=</heterogeneity:alignmentrelation>
+            </rdf:Description>
+        </heterogeneity:alignmentmap>
+        <heterogeneity:alignmentonto1>http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf</heterogeneity:alignmentonto1>
+        <heterogeneity:alignmentonto2>http://oaei.ontologymatching.org/2011/benchmarks/302/onto.rdf</heterogeneity:alignmentonto2>
+        <heterogeneity:alignmenttype>11</heterogeneity:alignmenttype>
+        <heterogeneity:alignmenturi1>http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf</heterogeneity:alignmenturi1>
+        <heterogeneity:alignmenturi2>http://ebiquity.umbc.edu/v2.1/ontology/publication.owl</heterogeneity:alignmenturi2>
+        <heterogeneity:alignmentxml>yes</heterogeneity:alignmentxml>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://knowledgeweb.semanticweb.org/heterogeneity/alignmentCell"/>
+        <heterogeneity:alignmententity1 rdf:resource="http://oaei.ontologymatching.org/2011/benchmarks/101/onto.rdf#InBook"/>
+        <heterogeneity:alignmententity2 rdf:resource="http://ebiquity.umbc.edu/v2.1/ontology/publication.owl#InBook"/>
+        <heterogeneity:alignmentmeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</heterogeneity:alignmentmeasure>
+        <heterogeneity:alignmentrelation>&lt;</heterogeneity:alignmentrelation>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
